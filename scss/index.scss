@@ -1,0 +1,20 @@
+$color: #FA4A0C;
+
+.header__link {
+    transition: 0.5s;
+    &:hover {
+        color: $color;
+    }
+}
+
+.order {
+    padding: 80px 0;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+
+    button {
+        &:nth-child(1) {
+            background-color: $color;
+        }
+    }
+}
